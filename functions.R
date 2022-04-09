@@ -10,7 +10,6 @@ library(tidyverse)
 library(ggplot2)
 library(drc)
 library(spatialEco)
-library(readxl)
 
 #' importData
 #'
@@ -39,8 +38,25 @@ importData <-
     df <- read.csv(file = filePath)
     df <- df %>%
       dplyr::select(any_of(columnFilter))
+    df <- df %>%
+      mutate(Tm = as.numeric(Tm)) %>%
+      mutate(Slope = as.numeric(Slope)) %>%
+      mutate(Initial = as.numeric(Initial))
     message('TSA File imported and cleaned.')
     return(df)
+  }
+
+#' Clean NAs and convert to blank
+#'
+#' @param df 
+#'
+#' @return
+#' @export
+#'
+#' @examples
+cleanBlank <- function(df) {
+  df$buffer.Name[is.na(df$buffer.Name)] <- 'Blank'
+  return(df)
   }
 
 #' plate_assignment
@@ -54,6 +70,23 @@ importData <-
 #'
 #' @examples
 plate_assignment <- function(df, platemap_file) {
-  platemapParse <- read_xlsx(platemapPath)
-  combined.df <- full_join(df,platemapParse,by='Well')
+  df.platemap <- read.csv(file = platemap_file)
+  combined.df <- full_join(df,df.platemap,by='Well')
+  return(combined.df)
+}
+
+
+#' Calculate HT-DGR Score
+#'
+#' @param df 
+#' df containing Tm, Slope, and Initial values
+#' 
+#' @return
+#' @export
+#'
+#' @examples
+calculateDGR <- function(df) {
+  df <- df %>%
+    mutate(., DGR.Score = (Tm*Slope)/Initial)
+  return(df)
 }

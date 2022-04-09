@@ -1,0 +1,385 @@
+Well,buffer.M,buffer.Name,buffer.pH,buffer.NaCl.M
+A01,,,,
+A02,0.2,Sodium acetate trihydrate,4.5,
+A03,0.2,Sodium citrate tribasic dihydrate,5,
+A04,0.2,Succinic acid,5.5,
+A05,0.2,MES monohydrate,6,
+A06,0.2,BIS-TRIS,6.5,
+A07,0.2,Imidazole,7,
+A08,0.2,HEPES,7.5,
+A09,0.2,Tris,8,
+A10,0.2,BIS-TRIS Propane,8.5,
+A11,0.2,AMPD,9,
+A12,0.2,Glycine,9.5,
+A13,,,,
+A14,0.2,Sodium acetate trihydrate,4.5,
+A15,0.2,Sodium citrate tribasic dihydrate,5,
+A16,0.2,Succinic acid,5.5,
+A17,0.2,MES monohydrate,6,
+A18,0.2,BIS-TRIS,6.5,
+A19,0.2,Imidazole,7,
+A20,0.2,HEPES,7.5,
+A21,0.2,Tris,8,
+A22,0.2,BIS-TRIS Propane,8.5,
+A23,0.2,AMPD,9,
+A24,0.2,Glycine,9.5,
+B01,,,,0.2
+B02,0.2,Sodium acetate trihydrate,4.5,0.2
+B03,0.2,Sodium citrate tribasic dihydrate,5,0.2
+B04,0.2,Succinic acid,5.5,0.2
+B05,0.2,MES monohydrate,6,0.2
+B06,0.2,BIS-TRIS,6.5,0.2
+B07,0.2,Imidazole,7,0.2
+B08,0.2,HEPES,7.5,0.2
+B09,0.2,Tris,8,0.2
+B10,0.2,BIS-TRIS Propane,8.5,0.2
+B11,0.2,AMPD,9,0.2
+B12,0.2,Glycine,9.5,0.2
+B13,,,,0.2
+B14,0.2,Sodium acetate trihydrate,4.5,0.2
+B15,0.2,Sodium citrate tribasic dihydrate,5,0.2
+B16,0.2,Succinic acid,5.5,0.2
+B17,0.2,MES monohydrate,6,0.2
+B18,0.2,BIS-TRIS,6.5,0.2
+B19,0.2,Imidazole,7,0.2
+B20,0.2,HEPES,7.5,0.2
+B21,0.2,Tris,8,0.2
+B22,0.2,BIS-TRIS Propane,8.5,0.2
+B23,0.2,AMPD,9,0.2
+B24,0.2,Glycine,9.5,0.2
+C01,,,,0.4
+C02,0.2,Sodium acetate trihydrate,4.5,0.4
+C03,0.2,Sodium citrate tribasic dihydrate,5,0.4
+C04,0.2,Succinic acid,5.5,0.4
+C05,0.2,MES monohydrate,6,0.4
+C06,0.2,BIS-TRIS,6.5,0.4
+C07,0.2,Imidazole,7,0.4
+C08,0.2,HEPES,7.5,0.4
+C09,0.2,Tris,8,0.4
+C10,0.2,BIS-TRIS Propane,8.5,0.4
+C11,0.2,AMPD,9,0.4
+C12,0.2,Glycine,9.5,0.4
+C13,,,,0.4
+C14,0.2,Sodium acetate trihydrate,4.5,0.4
+C15,0.2,Sodium citrate tribasic dihydrate,5,0.4
+C16,0.2,Succinic acid,5.5,0.4
+C17,0.2,MES monohydrate,6,0.4
+C18,0.2,BIS-TRIS,6.5,0.4
+C19,0.2,Imidazole,7,0.4
+C20,0.2,HEPES,7.5,0.4
+C21,0.2,Tris,8,0.4
+C22,0.2,BIS-TRIS Propane,8.5,0.4
+C23,0.2,AMPD,9,0.4
+C24,0.2,Glycine,9.5,0.4
+D01,,,,0.6
+D02,0.2,Sodium acetate trihydrate,4.5,0.6
+D03,0.2,Sodium citrate tribasic dihydrate,5,0.6
+D04,0.2,Succinic acid,5.5,0.6
+D05,0.2,MES monohydrate,6,0.6
+D06,0.2,BIS-TRIS,6.5,0.6
+D07,0.2,Imidazole,7,0.6
+D08,0.2,HEPES,7.5,0.6
+D09,0.2,Tris,8,0.6
+D10,0.2,BIS-TRIS Propane,8.5,0.6
+D11,0.2,AMPD,9,0.6
+D12,0.2,Glycine,9.5,0.6
+D13,,,,0.6
+D14,0.2,Sodium acetate trihydrate,4.5,0.6
+D15,0.2,Sodium citrate tribasic dihydrate,5,0.6
+D16,0.2,Succinic acid,5.5,0.6
+D17,0.2,MES monohydrate,6,0.6
+D18,0.2,BIS-TRIS,6.5,0.6
+D19,0.2,Imidazole,7,0.6
+D20,0.2,HEPES,7.5,0.6
+D21,0.2,Tris,8,0.6
+D22,0.2,BIS-TRIS Propane,8.5,0.6
+D23,0.2,AMPD,9,0.6
+D24,0.2,Glycine,9.5,0.6
+E01,,,,0.8
+E02,0.2,Sodium acetate trihydrate,4.5,0.8
+E03,0.2,Sodium citrate tribasic dihydrate,5,0.8
+E04,0.2,Succinic acid,5.5,0.8
+E05,0.2,MES monohydrate,6,0.8
+E06,0.2,BIS-TRIS,6.5,0.8
+E07,0.2,Imidazole,7,0.8
+E08,0.2,HEPES,7.5,0.8
+E09,0.2,Tris,8,0.8
+E10,0.2,BIS-TRIS Propane,8.5,0.8
+E11,0.2,AMPD,9,0.8
+E12,0.2,Glycine,9.5,0.8
+E13,,,,0.8
+E14,0.2,Sodium acetate trihydrate,4.5,0.8
+E15,0.2,Sodium citrate tribasic dihydrate,5,0.8
+E16,0.2,Succinic acid,5.5,0.8
+E17,0.2,MES monohydrate,6,0.8
+E18,0.2,BIS-TRIS,6.5,0.8
+E19,0.2,Imidazole,7,0.8
+E20,0.2,HEPES,7.5,0.8
+E21,0.2,Tris,8,0.8
+E22,0.2,BIS-TRIS Propane,8.5,0.8
+E23,0.2,AMPD,9,0.8
+E24,0.2,Glycine,9.5,0.8
+F01,,,,1
+F02,0.2,Sodium acetate trihydrate,4.5,1
+F03,0.2,Sodium citrate tribasic dihydrate,5,1
+F04,0.2,Succinic acid,5.5,1
+F05,0.2,MES monohydrate,6,1
+F06,0.2,BIS-TRIS,6.5,1
+F07,0.2,Imidazole,7,1
+F08,0.2,HEPES,7.5,1
+F09,0.2,Tris,8,1
+F10,0.2,BIS-TRIS Propane,8.5,1
+F11,0.2,AMPD,9,1
+F12,0.2,Glycine,9.5,1
+F13,,,,1
+F14,0.2,Sodium acetate trihydrate,4.5,1
+F15,0.2,Sodium citrate tribasic dihydrate,5,1
+F16,0.2,Succinic acid,5.5,1
+F17,0.2,MES monohydrate,6,1
+F18,0.2,BIS-TRIS,6.5,1
+F19,0.2,Imidazole,7,1
+F20,0.2,HEPES,7.5,1
+F21,0.2,Tris,8,1
+F22,0.2,BIS-TRIS Propane,8.5,1
+F23,0.2,AMPD,9,1
+F24,0.2,Glycine,9.5,1
+G01,,,,2
+G02,0.2,Sodium acetate trihydrate,4.5,2
+G03,0.2,Sodium citrate tribasic dihydrate,5,2
+G04,0.2,Succinic acid,5.5,2
+G05,0.2,MES monohydrate,6,2
+G06,0.2,BIS-TRIS,6.5,2
+G07,0.2,Imidazole,7,2
+G08,0.2,HEPES,7.5,2
+G09,0.2,Tris,8,2
+G10,0.2,BIS-TRIS Propane,8.5,2
+G11,0.2,AMPD,9,2
+G12,0.2,Glycine,9.5,2
+G13,,,,2
+G14,0.2,Sodium acetate trihydrate,4.5,2
+G15,0.2,Sodium citrate tribasic dihydrate,5,2
+G16,0.2,Succinic acid,5.5,2
+G17,0.2,MES monohydrate,6,2
+G18,0.2,BIS-TRIS,6.5,2
+G19,0.2,Imidazole,7,2
+G20,0.2,HEPES,7.5,2
+G21,0.2,Tris,8,2
+G22,0.2,BIS-TRIS Propane,8.5,2
+G23,0.2,AMPD,9,2
+G24,0.2,Glycine,9.5,2
+H01,,,,4
+H02,0.2,Sodium acetate trihydrate,4.5,4
+H03,0.2,Sodium citrate tribasic dihydrate,5,4
+H04,0.2,Succinic acid,5.5,4
+H05,0.2,MES monohydrate,6,4
+H06,0.2,BIS-TRIS,6.5,4
+H07,0.2,Imidazole,7,4
+H08,0.2,HEPES,7.5,4
+H09,0.2,Tris,8,4
+H10,0.2,BIS-TRIS Propane,8.5,4
+H11,0.2,AMPD,9,4
+H12,0.2,Glycine,9.5,4
+H13,,,,4
+H14,0.2,Sodium acetate trihydrate,4.5,4
+H15,0.2,Sodium citrate tribasic dihydrate,5,4
+H16,0.2,Succinic acid,5.5,4
+H17,0.2,MES monohydrate,6,4
+H18,0.2,BIS-TRIS,6.5,4
+H19,0.2,Imidazole,7,4
+H20,0.2,HEPES,7.5,4
+H21,0.2,Tris,8,4
+H22,0.2,BIS-TRIS Propane,8.5,4
+H23,0.2,AMPD,9,4
+H24,0.2,Glycine,9.5,4
+I01,,,,
+I02,0.2,Sodium acetate trihydrate,4.5,
+I03,0.2,Sodium citrate tribasic dihydrate,5,
+I04,0.2,Succinic acid,5.5,
+I05,0.2,MES monohydrate,6,
+I06,0.2,BIS-TRIS,6.5,
+I07,0.2,Imidazole,7,
+I08,0.2,HEPES,7.5,
+I09,0.2,Tris,8,
+I10,0.2,BIS-TRIS Propane,8.5,
+I11,0.2,AMPD,9,
+I12,0.2,Glycine,9.5,
+I13,,,,
+I14,0.2,Sodium acetate trihydrate,4.5,
+I15,0.2,Sodium citrate tribasic dihydrate,5,
+I16,0.2,Succinic acid,5.5,
+I17,0.2,MES monohydrate,6,
+I18,0.2,BIS-TRIS,6.5,
+I19,0.2,Imidazole,7,
+I20,0.2,HEPES,7.5,
+I21,0.2,Tris,8,
+I22,0.2,BIS-TRIS Propane,8.5,
+I23,0.2,AMPD,9,
+I24,0.2,Glycine,9.5,
+J01,,,,0.2
+J02,0.2,Sodium acetate trihydrate,4.5,0.2
+J03,0.2,Sodium citrate tribasic dihydrate,5,0.2
+J04,0.2,Succinic acid,5.5,0.2
+J05,0.2,MES monohydrate,6,0.2
+J06,0.2,BIS-TRIS,6.5,0.2
+J07,0.2,Imidazole,7,0.2
+J08,0.2,HEPES,7.5,0.2
+J09,0.2,Tris,8,0.2
+J10,0.2,BIS-TRIS Propane,8.5,0.2
+J11,0.2,AMPD,9,0.2
+J12,0.2,Glycine,9.5,0.2
+J13,,,,0.2
+J14,0.2,Sodium acetate trihydrate,4.5,0.2
+J15,0.2,Sodium citrate tribasic dihydrate,5,0.2
+J16,0.2,Succinic acid,5.5,0.2
+J17,0.2,MES monohydrate,6,0.2
+J18,0.2,BIS-TRIS,6.5,0.2
+J19,0.2,Imidazole,7,0.2
+J20,0.2,HEPES,7.5,0.2
+J21,0.2,Tris,8,0.2
+J22,0.2,BIS-TRIS Propane,8.5,0.2
+J23,0.2,AMPD,9,0.2
+J24,0.2,Glycine,9.5,0.2
+K01,,,,0.4
+K02,0.2,Sodium acetate trihydrate,4.5,0.4
+K03,0.2,Sodium citrate tribasic dihydrate,5,0.4
+K04,0.2,Succinic acid,5.5,0.4
+K05,0.2,MES monohydrate,6,0.4
+K06,0.2,BIS-TRIS,6.5,0.4
+K07,0.2,Imidazole,7,0.4
+K08,0.2,HEPES,7.5,0.4
+K09,0.2,Tris,8,0.4
+K10,0.2,BIS-TRIS Propane,8.5,0.4
+K11,0.2,AMPD,9,0.4
+K12,0.2,Glycine,9.5,0.4
+K13,,,,0.4
+K14,0.2,Sodium acetate trihydrate,4.5,0.4
+K15,0.2,Sodium citrate tribasic dihydrate,5,0.4
+K16,0.2,Succinic acid,5.5,0.4
+K17,0.2,MES monohydrate,6,0.4
+K18,0.2,BIS-TRIS,6.5,0.4
+K19,0.2,Imidazole,7,0.4
+K20,0.2,HEPES,7.5,0.4
+K21,0.2,Tris,8,0.4
+K22,0.2,BIS-TRIS Propane,8.5,0.4
+K23,0.2,AMPD,9,0.4
+K24,0.2,Glycine,9.5,0.4
+L01,,,,0.6
+L02,0.2,Sodium acetate trihydrate,4.5,0.6
+L03,0.2,Sodium citrate tribasic dihydrate,5,0.6
+L04,0.2,Succinic acid,5.5,0.6
+L05,0.2,MES monohydrate,6,0.6
+L06,0.2,BIS-TRIS,6.5,0.6
+L07,0.2,Imidazole,7,0.6
+L08,0.2,HEPES,7.5,0.6
+L09,0.2,Tris,8,0.6
+L10,0.2,BIS-TRIS Propane,8.5,0.6
+L11,0.2,AMPD,9,0.6
+L12,0.2,Glycine,9.5,0.6
+L13,,,,0.6
+L14,0.2,Sodium acetate trihydrate,4.5,0.6
+L15,0.2,Sodium citrate tribasic dihydrate,5,0.6
+L16,0.2,Succinic acid,5.5,0.6
+L17,0.2,MES monohydrate,6,0.6
+L18,0.2,BIS-TRIS,6.5,0.6
+L19,0.2,Imidazole,7,0.6
+L20,0.2,HEPES,7.5,0.6
+L21,0.2,Tris,8,0.6
+L22,0.2,BIS-TRIS Propane,8.5,0.6
+L23,0.2,AMPD,9,0.6
+L24,0.2,Glycine,9.5,0.6
+M01,,,,0.8
+M02,0.2,Sodium acetate trihydrate,4.5,0.8
+M03,0.2,Sodium citrate tribasic dihydrate,5,0.8
+M04,0.2,Succinic acid,5.5,0.8
+M05,0.2,MES monohydrate,6,0.8
+M06,0.2,BIS-TRIS,6.5,0.8
+M07,0.2,Imidazole,7,0.8
+M08,0.2,HEPES,7.5,0.8
+M09,0.2,Tris,8,0.8
+M10,0.2,BIS-TRIS Propane,8.5,0.8
+M11,0.2,AMPD,9,0.8
+M12,0.2,Glycine,9.5,0.8
+M13,,,,0.8
+M14,0.2,Sodium acetate trihydrate,4.5,0.8
+M15,0.2,Sodium citrate tribasic dihydrate,5,0.8
+M16,0.2,Succinic acid,5.5,0.8
+M17,0.2,MES monohydrate,6,0.8
+M18,0.2,BIS-TRIS,6.5,0.8
+M19,0.2,Imidazole,7,0.8
+M20,0.2,HEPES,7.5,0.8
+M21,0.2,Tris,8,0.8
+M22,0.2,BIS-TRIS Propane,8.5,0.8
+M23,0.2,AMPD,9,0.8
+M24,0.2,Glycine,9.5,0.8
+N01,,,,1
+N02,0.2,Sodium acetate trihydrate,4.5,1
+N03,0.2,Sodium citrate tribasic dihydrate,5,1
+N04,0.2,Succinic acid,5.5,1
+N05,0.2,MES monohydrate,6,1
+N06,0.2,BIS-TRIS,6.5,1
+N07,0.2,Imidazole,7,1
+N08,0.2,HEPES,7.5,1
+N09,0.2,Tris,8,1
+N10,0.2,BIS-TRIS Propane,8.5,1
+N11,0.2,AMPD,9,1
+N12,0.2,Glycine,9.5,1
+N13,,,,1
+N14,0.2,Sodium acetate trihydrate,4.5,1
+N15,0.2,Sodium citrate tribasic dihydrate,5,1
+N16,0.2,Succinic acid,5.5,1
+N17,0.2,MES monohydrate,6,1
+N18,0.2,BIS-TRIS,6.5,1
+N19,0.2,Imidazole,7,1
+N20,0.2,HEPES,7.5,1
+N21,0.2,Tris,8,1
+N22,0.2,BIS-TRIS Propane,8.5,1
+N23,0.2,AMPD,9,1
+N24,0.2,Glycine,9.5,1
+O01,,,,2
+O02,0.2,Sodium acetate trihydrate,4.5,2
+O03,0.2,Sodium citrate tribasic dihydrate,5,2
+O04,0.2,Succinic acid,5.5,2
+O05,0.2,MES monohydrate,6,2
+O06,0.2,BIS-TRIS,6.5,2
+O07,0.2,Imidazole,7,2
+O08,0.2,HEPES,7.5,2
+O09,0.2,Tris,8,2
+O10,0.2,BIS-TRIS Propane,8.5,2
+O11,0.2,AMPD,9,2
+O12,0.2,Glycine,9.5,2
+O13,,,,2
+O14,0.2,Sodium acetate trihydrate,4.5,2
+O15,0.2,Sodium citrate tribasic dihydrate,5,2
+O16,0.2,Succinic acid,5.5,2
+O17,0.2,MES monohydrate,6,2
+O18,0.2,BIS-TRIS,6.5,2
+O19,0.2,Imidazole,7,2
+O20,0.2,HEPES,7.5,2
+O21,0.2,Tris,8,2
+O22,0.2,BIS-TRIS Propane,8.5,2
+O23,0.2,AMPD,9,2
+O24,0.2,Glycine,9.5,2
+P01,,,,4
+P02,0.2,Sodium acetate trihydrate,4.5,4
+P03,0.2,Sodium citrate tribasic dihydrate,5,4
+P04,0.2,Succinic acid,5.5,4
+P05,0.2,MES monohydrate,6,4
+P06,0.2,BIS-TRIS,6.5,4
+P07,0.2,Imidazole,7,4
+P08,0.2,HEPES,7.5,4
+P09,0.2,Tris,8,4
+P10,0.2,BIS-TRIS Propane,8.5,4
+P11,0.2,AMPD,9,4
+P12,0.2,Glycine,9.5,4
+P13,,,,4
+P14,0.2,Sodium acetate trihydrate,4.5,4
+P15,0.2,Sodium citrate tribasic dihydrate,5,4
+P16,0.2,Succinic acid,5.5,4
+P17,0.2,MES monohydrate,6,4
+P18,0.2,BIS-TRIS,6.5,4
+P19,0.2,Imidazole,7,4
+P20,0.2,HEPES,7.5,4
+P21,0.2,Tris,8,4
+P22,0.2,BIS-TRIS Propane,8.5,4
+P23,0.2,AMPD,9,4
+P24,0.2,Glycine,9.5,4
