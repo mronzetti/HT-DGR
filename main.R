@@ -5,8 +5,8 @@
 # Code for processing a csv file into 
 #
 # Written by Michael Ronzetti, NIH/NCATS 2022
-
 library(tidyverse)
+library(ggthemes)
 source('functions.R')
 
 filePath <- 'data/sample_refolding.csv'
@@ -25,3 +25,6 @@ df.Raw <- cleanBlank(df.Raw)
 
 # Calculate HT-DGR scores for the entire plate
 df.Raw <- calculateDGR(df.Raw)
+
+# Plot out distributions of scores
+plotSpreads(df.Raw)
