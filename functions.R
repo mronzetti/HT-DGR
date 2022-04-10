@@ -109,8 +109,17 @@ plotSpreads <- function(df) {
     theme_clean() +
     labs(title = 'Tm vs. HT-DGR Score',
          fill = 'Buffer Component',
-         size = 'NaCl [M]')
+         size = 'NaCl [M]') +
+    theme(
+      axis.title = element_text(size = 15),
+      axis.text = element_text(size = 12),
+      title = element_text(size = 14)
+    )
+  
   print(spread.Tm.DGR)
+  ggsave(filename = './figs/spread_TM_DGR.png',
+         dpi = 'retina',
+         scale = 1.5)
   
   # Plot Initial vs. DGR Score
   spread.Initial.DGR <-
@@ -125,8 +134,17 @@ plotSpreads <- function(df) {
     theme_clean() +
     labs(title = 'Initial Signal vs. HT-DGR Score',
          fill = 'Buffer Component',
-         size = 'NaCl [M]')
+         size = 'NaCl [M]') +
+    theme(
+      axis.title = element_text(size = 15),
+      axis.text = element_text(size = 12),
+      title = element_text(size = 14)
+    )
+  
   print(spread.Initial.DGR)
+  ggsave(filename = './figs/spread_Initial_DGR.png',
+         dpi = 'retina',
+         scale = 1.5)
   
   # Plot Slope vs. DGR Score
   spread.Slope.DGR <-
@@ -141,8 +159,17 @@ plotSpreads <- function(df) {
     theme_clean() +
     labs(title = 'First Derivative Max Slope vs. HT-DGR Score',
          fill = 'Buffer Component',
-         size = 'NaCl [M]')
+         size = 'NaCl [M]') +
+    theme(
+      axis.title = element_text(size = 15),
+      axis.text = element_text(size = 12),
+      title = element_text(size = 14)
+    )
+  
   print(spread.Slope.DGR)
+  ggsave(filename = './figs/spread_Slope_DGR.png',
+         dpi = 'retina',
+         scale = 1.5)
   
   # Plot Initial vs. Tm Score
   spread.Initial.Tm <-
@@ -157,10 +184,19 @@ plotSpreads <- function(df) {
     theme_clean() +
     labs(title = 'Initial Signal vs. Tm',
          fill = 'Buffer Component',
-         size = 'NaCl [M]')
-  print(spread.Initial.Tm)
+         size = 'NaCl [M]') +
+    theme(
+      axis.title = element_text(size = 15),
+      axis.text = element_text(size = 12),
+      title = element_text(size = 14)
+    )
   
-  # Plot Initial vs. DGR Score
+  print(spread.Initial.Tm)
+  ggsave(filename = './figs/spread_Initial_Tm.png',
+         dpi = 'retina',
+         scale = 1.5)
+  
+  # Plot Tm vs. Slope Score
   spread.Slope.Tm <-
     ggplot(df,
            aes(
@@ -173,6 +209,15 @@ plotSpreads <- function(df) {
     theme_clean() +
     labs(title = 'First Derivative Max Slope vs. Tm',
          fill = 'Buffer Component',
-         size = 'NaCl [M]')
+         size = 'NaCl [M]') +
+    theme(
+      axis.title = element_text(size = 15),
+      axis.text = element_text(size = 12),
+      title = element_text(size = 14)
+    )
+  
   print(spread.Slope.Tm)
+  ggsave(filename = './figs/spread_Slope_Tm.png',
+         dpi = 'retina',
+         scale = 1.5)
 }
