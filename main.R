@@ -35,3 +35,7 @@ df.Agg <- mergeReplicates(df.Raw)
 
 # Plot out all graphs for each buffer condition.
 DGRPlots(df.Agg)
+
+# Export data frames as .csv files
+write.csv(df.Raw, file = './data/raw_data.csv')
+write.csv(df.Agg, file = './data/aggregated_data.csv')

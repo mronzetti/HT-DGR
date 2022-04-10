@@ -354,6 +354,10 @@ DGRPlots <- function(df) {
       rel_heights = c(0.15, 1, 1)
     )
     print(plot.full)
-    ggsave(filename = paste('./figs/',bufferList[[i]],'.png',sep=''), dpi = 'retina', scale = 1.25)
+    ggsave(
+      filename = paste('./figs/', bufferList[[i]], '.png', sep = ''),
+      dpi = 'retina',
+      scale = 1.25
+    )
   }
 }
