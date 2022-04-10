@@ -8,9 +8,8 @@
 
 library(tidyverse)
 library(ggplot2)
-library(drc)
-library(spatialEco)
 library(cowplot)
+library(ggthemes)
 library(ggpubr)
 
 #' importData
@@ -60,6 +59,7 @@ cleanBlank <- function(df) {
   df$buffer.Name[df$buffer.Name == ''] <- 'Blank'
   df$buffer.NaCl.M[is.na(df$buffer.NaCl.M)] <- 0
   df$buffer.M[is.na(df$buffer.M)] <- 0
+  df$buffer.pH[is.na(df$buffer.pH)] <- 0
   return(df)
 }
 
@@ -220,4 +220,140 @@ plotSpreads <- function(df) {
   ggsave(filename = './figs/spread_Slope_Tm.png',
          dpi = 'retina',
          scale = 1.5)
+}
+
+#' mergeReplicates
+#'
+#' Merges the replicates across a plate and outputs mean, StDev, and N
+#'
+#' @param df
+#'
+#' @return
+#' @export
+#'
+#' @examples
+mergeReplicates <- function(df) {
+  df <- df %>% dplyr::select(-Well)
+  df.Agg <- df %>%
+    dplyr::group_by(buffer.Name, buffer.M, buffer.pH, buffer.NaCl.M) %>%
+    dplyr::summarise_all(funs(mean, sd, n()))
+  return(df.Agg)
+}
+
+DGRPlots <- function(df) {
+  bufferList <- unique(df$buffer.Name)
+  for (i in 1:length(bufferList)) {
+    # First, make temp df to store the current buffer
+    df.temp <- df %>% filter(buffer.Name == bufferList[i])
+    
+    # Then, plot out graphs for Tm, Slope, Initial, and DGR Score
+    plot.Tm <-
+      ggplot(data = df.temp, aes(x = buffer.NaCl.M, y = Tm_mean)) +
+      geom_errorbar(aes(ymin = Tm_mean - Tm_sd, ymax = Tm_mean + Tm_sd)) +
+      geom_point(
+        shape = 21,
+        size = 4,
+        color = 'black',
+        fill = '#CC6677'
+      ) +
+      theme_clean() +
+      labs(title = 'Tm vs. NaCl Concentration',
+           x = 'NaCl [M]',
+           y = 'Tm') +
+      theme(
+        axis.text = element_text(size = 12),
+        axis.title = element_text(size = 14),
+        plot.title = element_text(size = 16)
+      )
+    plot.Tm
+    
+    plot.Slope <-
+      ggplot(data = df.temp, aes(x = buffer.NaCl.M, y = Slope_mean)) +
+      geom_errorbar(aes(ymin = Slope_mean - Slope_sd, ymax = Slope_mean +
+                          Slope_sd)) +
+      geom_point(
+        shape = 21,
+        size = 4,
+        color = 'black',
+        fill = '#999933'
+      ) +
+      theme_clean() +
+      labs(title = 'Slope vs. NaCl Concentration',
+           x = 'NaCl [M]',
+           y = 'Slope') +
+      theme(
+        axis.text = element_text(size = 12),
+        axis.title = element_text(size = 14),
+        plot.title = element_text(size = 16)
+      )
+    plot.Slope
+    
+    plot.Initial <-
+      ggplot(data = df.temp, aes(x = buffer.NaCl.M, y = Initial_mean)) +
+      geom_errorbar(aes(ymin = Initial_mean - Initial_sd, ymax = Initial_mean +
+                          Initial_sd)) +
+      geom_point(
+        shape = 21,
+        size = 4,
+        color = 'black',
+        fill = '#44AA99'
+      ) +
+      theme_clean() +
+      labs(title = 'Initial vs. NaCl Concentration',
+           x = 'NaCl [M]',
+           y = 'Initial') +
+      theme(
+        axis.text = element_text(size = 12),
+        axis.title = element_text(size = 14),
+        plot.title = element_text(size = 16)
+      )
+    plot.Initial
+    
+    plot.DGR <-
+      ggplot(data = df.temp, aes(x = buffer.NaCl.M, y = DGR.Score_mean)) +
+      geom_errorbar(aes(
+        ymin = DGR.Score_mean - DGR.Score_sd,
+        ymax = DGR.Score_mean + DGR.Score_sd
+      )) +
+      geom_point(
+        shape = 21,
+        size = 4,
+        color = 'black',
+        fill = '#AA4499'
+      ) +
+      theme_clean() +
+      labs(title = 'DGR Score vs. NaCl Concentration',
+           x = 'NaCl [M]',
+           y = 'DGR Score') +
+      theme(
+        axis.text = element_text(size = 12),
+        axis.title = element_text(size = 14),
+        plot.title = element_text(size = 16)
+      )
+    plot.DGR
+    
+    # Now, assemble in a cowplot
+    plot.row1 <- plot_grid(plot.Tm, plot.Slope)
+    plot.row2 <- plot_grid(plot.Initial, plot.DGR)
+    plot.title <- ggdraw() +
+      draw_label(
+        paste('Buffer: ', bufferList[i], sep = ''),
+        fontface = 'bold',
+        size = 18,
+        x = 0,
+        hjust = 0
+      ) +
+      theme(# add margin on the left of the drawing canvas,
+        # so title is aligned with left edge of first plot
+        plot.margin = margin(0, 0, 0, 7))
+    plot.full <- plot_grid(
+      plot.title,
+      plot.row1,
+      plot.row2,
+      ncol = 1,
+      rel_heights = c(0.15, 1, 1)
+    )
+    print(plot.full)
+    ggsave(filename = paste('./figs/',bufferList[[i]],'.png',sep=''), dpi = 'retina', scale = 1.25)
+  }
 }
